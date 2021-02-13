@@ -19,6 +19,10 @@ body {
     z-index: 88888;
 }
 
+.notScrollX {
+    overflow-x: hidden;
+}
+
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
@@ -213,15 +217,16 @@ body {
     margin: 5px;
     color: rgba(255, 255, 255, 1);
 }
+@media screen and (min-width:0px) and (max-width:991px) {
+    .navbar-nav>ul>li {
+        white-space: normal;
+        float: none;
+        padding: 6px;
+        color: rgb(116, 114, 114);
+    }
+}
 
-/* .counter{
-    animation-duration: 1s;
-    animation-delay: 0s;
-} */
-
-/* .nav-item:active:focus-visible {
-    text-decoration: underline;
-} */
+/* ............................................... */
 
 header {
     background-image: url(../images/bg.jpg);
