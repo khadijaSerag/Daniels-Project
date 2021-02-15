@@ -15,7 +15,7 @@ $(window).scroll(function () {
     if (wScroll > aboutOffsetTop - 600) {
 
        
-        $("#navb").css("padding","0px 60px");
+        $("#navb").css("padding","0px 40px");
 
         $("#navb").css({ "backgroundColor": "white", "boxShadow": "0px 0px 2px #e6dada", "color": "black" });
 
